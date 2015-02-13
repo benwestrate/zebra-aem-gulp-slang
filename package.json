@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^1.7.2",
+    "gulp": "^3.8.10",
+    "gulp-notify": "^2.1.0",
+    "gulp-slang": "git://github.com/benwestrate/gulp-slang",
+    "gulp-watch": "^4.1.1",
+    "gulp-zip": "^2.0.2"
+  }
+}
