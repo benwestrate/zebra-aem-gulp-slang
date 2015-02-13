@@ -12,11 +12,11 @@ Make it easier to do front end dev with AEM
         "jcr_location" : "/path/to/your/jcr_root"
     }
 ```
-3) install all dependencies
+3) Install all dependencies
 ```javascript
     npm install
 ```
-4) run the default gulp task 
+4) Run the default gulp task 
 ```javascript
     gulp
 ```
