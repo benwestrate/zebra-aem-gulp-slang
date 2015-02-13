@@ -5,6 +5,6 @@ Make it easier to do front end dev with AEM
 Find the absolute path to your working jcr_root folder put that in the config file
 ```json
     {
-        "jcr_location" : "/Users/Ben/Dropbox/Sites/CITYTECH/repos/zebra/zebra-www/zebra-www-ui/src/main/content/jcr_root"
+        "jcr_location" : "/path/to/your/jcr_root"
     }
 ```
