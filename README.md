@@ -2,17 +2,21 @@
 Make it easier to do front end dev with AEM
 
 ##How To use Zebra AEM Gulp Slang
-1) Find the absolute path to your working jcr_root folder put that in the config file
+1) Clone this repo into a seperate directory from you AEM working directory 
+```
+    git clone 
+```
+2) Find the absolute path to your working jcr_root folder put that in the config file
 ```json
     {
         "jcr_location" : "/path/to/your/jcr_root"
     }
 ```
-2) install all dependencies
+3) install all dependencies
 ```javascript
     npm install
 ```
-3) run the default gulp task 
+4) run the default gulp task 
 ```javascript
     gulp
 ```
