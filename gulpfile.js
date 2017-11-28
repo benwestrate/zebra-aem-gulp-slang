@@ -23,9 +23,7 @@ function slangIt (e){
 
 gulp.task('default',  function() {
   var fs = require("fs");
-    
-    console.log(fs.lstatSync("/Users/Ben/Dropbox/Sites/CITYTECH/repos/zebra/zebra-www/zebra-www-ui/src/main/content/jcr_root/etc/designs/zebra/").isDirectory())
-    
+       
     watch( filesToWatch , slangIt);
    
     
